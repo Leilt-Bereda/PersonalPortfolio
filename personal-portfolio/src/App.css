@@ -104,6 +104,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
+  transition: opacity 0.3s ease-in-out;
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -339,6 +340,75 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 40%;
   z-index: -4;
 }
+
+/************ Experience Css ************/
+.experience {
+  padding: 80px 0;
+  position: relative;
+}
+.experience .experience-list {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.experience .experience-item.card {
+  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+  min-height: 240px;
+  border-radius: 12px;
+}
+.experience .card-body {
+  display: flex;
+  flex-direction: column;
+}
+.experience .card-title {
+  font-size: 18px;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.experience .card-title small {
+  color: #B8B8B8;
+  font-weight: 500;
+  font-size: 14px;
+}
+.experience .period {
+  display: inline-block;
+  color: #B8B8B8;
+  margin-bottom: 12px;
+  font-size: 13px;
+}
+.experience .experience-points {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.experience .experience-points li {
+  color: #E8E8E8;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 8px;
+  padding-left: 18px;
+  position: relative;
+}
+.experience .experience-points li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #4A9FD8;
+  font-weight: bold;
+}
+
+.experience h2 {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.experience .experience-list .row {
+  gap: 20px;
+}
+
+
 
 /************ Projects Css ************/
 .project {
