@@ -40,7 +40,7 @@ export const Experience = () => {
                   <Row className="experience-list">
                     {experiences.map((exp, idx) => (
                       <Col key={idx} xs={6} className="d-flex">
-                        <div className="experience-item card w-100">
+                        <div className="experience-item card w-150">
                           <div className="card-body">
                             <h4 className="card-title">{exp.role} — <small>{exp.company}</small></h4>
                             <span className="period">{exp.period}</span>

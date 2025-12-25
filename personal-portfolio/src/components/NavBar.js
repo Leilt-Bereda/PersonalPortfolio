@@ -55,9 +55,9 @@ export const NavBar = () => {
                 <a href="https://github.com/Leilt-Bereda" target="_blank" rel="noreferrer"><img src={navIcon4} alt="GitHub" /></a>
                 
               </div>
-              <a href="/resume.pdf" target="_blank" rel="noreferrer">
+              {/* <a href="/resume.pdf" target="_blank" rel="noreferrer">
                 <button className="vvd" style={{marginRight: '8px'}}><span>Resume</span></button>
-              </a>
+              </a> */}
               <HashLink to='#connect'>
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>

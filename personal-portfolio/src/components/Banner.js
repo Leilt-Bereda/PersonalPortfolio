@@ -8,7 +8,7 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
   // === Your details ===
   const name = "Leilt Bereda";
-  const bio = "A Computer Science student with a passion for technology, problem-solving, and innovation. I'm passionate about technology's potential to simplify, optimize, and transform the way we live and work.";
+  const bio = "A Computer Science student passionate about technology's potential to simplify, optimize, and transform the way we live and work.";
   const roles = []; // no roles displayed for now
 
   const [loopNum, setLoopNum] = useState(0);
@@ -61,7 +61,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <span className="tagline">Welcome to my Portfolio</span>
+                {/* <span className="tagline">Welcome to my Portfolio</span> */}
                 <h1>{`Hi! I'm ${name}`}</h1>
                   <p>{bio}</p>
                   <button onClick={() => document.getElementById('connect')?.scrollIntoView({ behavior: 'smooth' })}>Let’s Connect <ArrowRightCircle size={25} /></button>
@@ -69,12 +69,12 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
+            {/* <TrackVisibility>
               {({ isVisible }) =>
-                <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
-                </div>}
-            </TrackVisibility>
+                // <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
+                //   <img src={headerImg} alt="Header Img"/>
+                // </div>}
+            </TrackVisibility> */}
           </Col>
         </Row>
       </Container>
