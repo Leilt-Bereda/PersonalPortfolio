@@ -24,3 +24,9 @@ yarn-error.log*
 
 # environment variables
 .env
+
+# Large video files
+*.mp4
+*.MP4
+*.mov
+*.MOV
