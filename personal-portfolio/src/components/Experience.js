@@ -7,7 +7,7 @@ export const Experience = () => {
     {
       role: "Intern — Software Engineer Bootcamp",
       company: "GoDaddy",
-      period: "Jun 2025 - July 2025",
+      period: "June 2025 - July 2025",
       points: [
        
         "Selected as one of 10 participants from over 200 applicants",
@@ -39,7 +39,7 @@ export const Experience = () => {
                   <h2 className="text-center">My Experience</h2>
                   <Row className="experience-list">
                     {experiences.map((exp, idx) => (
-                      <Col key={idx} xs={6} className="d-flex">
+                      <Col key={idx} xs={12} md={6} className="d-flex">
                         <div className="experience-item card w-150">
                           <div className="card-body">
                             <h4 className="card-title">{exp.role} — <small>{exp.company}</small></h4>
