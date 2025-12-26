@@ -12,7 +12,7 @@ import tool6 from "../assets/img/tool6.png";
 import tool7 from "../assets/img/tool7.png";
 import tool8 from "../assets/img/tool8.png"; 
 import project4 from "../assets/img/project4.jpg";  
-import liveDemo1 from "../assets/img/liveDemo1.mp4"; 
+import liveDemo from "../assets/img/liveDemo.mp4";
 import project2 from "../assets/img/project2.jpeg";
 import demo2 from "../assets/img/demo2.MP4";
 import project1 from "../assets/img/project1 (2).png";
@@ -61,7 +61,7 @@ export const Projects = () => {
       description: "3D Horror Game",
       imgUrl: project4,
       github: "https://github.com/Leilt-Bereda/3D-Game.git",
-      demo: liveDemo1,  
+      demo: liveDemo,  
       techStack: [
         { name: 'Unity', img: tool6 },
         { name: 'C#', img: tool7 }
